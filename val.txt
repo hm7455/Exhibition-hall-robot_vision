@@ -1,0 +1,53 @@
+0 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/174.jpg 1920 1080 0 528 447 871 727 1 1175 289 1392 598 2 1575 377 1920 543
+1 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/91.jpg 1920 1080 0 672 454 1004 753 1 1320 293 1542 608 2 1708 397 1920 553
+2 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/520.jpg 1920 1080 7 67 320 519 531 8 554 250 1580 643
+3 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/545.jpg 1920 1080 7 158 360 595 556 8 688 322 1618 660
+4 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/78.jpg 1920 1080 0 753 462 1072 716 1 1355 333 1546 615 2 1704 452 1920 590
+5 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/163.jpg 1920 1080 0 795 422 1128 689 1 1445 283 1683 593
+6 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/455.jpg 1920 1080 6 14 419 162 543 7 848 223 1417 524 8 1619 182 1920 688
+7 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/124.jpg 1920 1080 0 249 416 663 700 1 945 272 1135 577 2 1368 379 1763 550
+8 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/97.jpg 1920 1080 0 568 490 921 787 1 1257 354 1472 669 2 1659 478 1920 645
+9 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/635.jpg 1920 1080 6 1 553 21 605 7 249 411 604 568 8 641 354 1410 645
+10 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/356.jpg 1920 1080 4 386 365 934 583
+11 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/502.jpg 1920 1080 7 1 251 482 495 8 595 204 1726 631
+12 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/629.jpg 1920 1080 6 1 542 25 600 7 255 409 611 565 8 648 353 1419 653
+13 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/327.jpg 1920 1080 3 4 4 362 701 4 815 352 1273 574
+14 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/551.jpg 1920 1080 7 217 375 614 557 8 696 330 1543 642
+15 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/291.jpg 1920 1080 2 232 532 595 656 3 730 41 1332 711 4 1696 412 1920 566
+16 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/104.jpg 1920 1080 0 435 545 807 872 1 1149 386 1349 725 2 1562 464 1920 637
+17 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/211.jpg 1920 1080 0 314 383 710 643 1 1008 237 1183 543 2 1420 350 1829 508
+18 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/166.jpg 1920 1080 0 700 423 1020 699 1 1349 303 1580 606 2 1735 439 1920 594
+19 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/319.jpg 1920 1080 3 1 19 337 667 4 791 343 1196 594
+20 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/65.jpg 1920 1080 0 654 357 935 583 1 1208 219 1362 469 2 1529 295 1826 422
+21 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/525.jpg 1920 1080 7 1 328 433 541 8 466 253 1491 654
+22 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/627.jpg 1920 1080 6 1 535 33 600 7 264 402 618 568 8 656 348 1406 646
+23 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/597.jpg 1920 1080 7 56 478 459 654 8 481 412 1285 734
+24 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/404.jpg 1920 1080 5 793 409 1280 595 6 1597 402 1785 534
+25 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/485.jpg 1920 1080 7 151 226 764 522 8 1034 138 1920 617
+26 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/218.jpg 1920 1080 0 292 400 682 665 1 991 256 1151 543 2 1397 354 1778 510
+27 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/582.jpg 1920 1080 6 75 532 169 600 7 459 415 804 580 8 910 374 1764 676
+28 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/499.jpg 1920 1080 7 1 218 470 478 8 593 197 1775 634
+29 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/371.jpg 1920 1080 5 969 489 1430 634 6 1643 412 1808 552
+30 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/515.jpg 1920 1080 7 1 318 454 531 8 507 261 1515 650
+31 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/278.jpg 1920 1080 2 217 580 608 728 3 734 142 1343 794
+32 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/619.jpg 1920 1080 7 191 538 562 713 8 595 490 1377 800
+33 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/495.jpg 1920 1080 7 1 281 477 558 8 674 194 1848 657
+34 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/612.jpg 1920 1080 7 56 604 459 790 8 482 557 1301 886
+35 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/549.jpg 1920 1080 7 199 357 610 537 8 688 309 1563 628
+36 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/157.jpg 1920 1080 0 847 379 1196 653 1 1487 216 1733 527
+37 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/241.jpg 1920 1080 0 1 418 207 629 1 371 290 601 577 2 860 411 1264 565 3 1567 1 1920 657
+38 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/192.jpg 1920 1080 0 326 486 712 758 1 1010 343 1195 641 2 1422 432 1833 608
+39 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/201.jpg 1920 1080 0 332 441 735 704 1 1030 302 1201 600 2 1441 418 1854 575
+40 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/412.jpg 1920 1080 5 433 428 904 624 6 1208 465 1341 602
+41 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/57.jpg 1920 1080 0 767 550 1055 794 1 1314 408 1484 664 2 1630 465 1920 619
+42 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/168.jpg 1920 1080 0 654 437 974 700 1 1282 297 1503 606 2 1696 420 1920 589
+43 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/85.jpg 1920 1080 0 746 450 1093 744 1 1412 298 1645 614 2 1812 406 1920 553
+44 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/526.jpg 1920 1080 7 1 333 419 549 8 443 265 1474 664
+45 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/71.jpg 1920 1080 0 634 418 928 656 1 1191 269 1328 520 2 1488 331 1780 466
+46 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/111.jpg 1920 1080 0 353 404 747 687 1 1047 250 1242 561 2 1475 345 1909 514
+47 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/68.jpg 1920 1080 0 650 398 939 623 1 1195 264 1351 504 2 1501 325 1818 462
+48 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/572.jpg 1920 1080 7 315 387 671 550 8 752 356 1543 641 6 1 510 28 576
+49 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/101.jpg 1920 1080 0 499 500 880 841 1 1197 345 1413 665 2 1638 441 1920 616
+50 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/251.jpg 1920 1080 0 1 470 146 632 1 328 325 550 625 2 825 425 1224 587 3 1385 3 1920 657
+51 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/267.jpg 1920 1080 2 291 669 674 800 3 844 146 1497 804
+52 /home1/hm/hhm/YOLOv3_TensorFlow/data/my_data/VOCdevkit/VOC2012/JPEGImages/475.jpg 1920 1080 6 1 402 121 522 7 793 195 1352 480 8 1577 138 1920 655
