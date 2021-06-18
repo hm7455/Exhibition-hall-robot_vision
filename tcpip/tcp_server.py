@@ -1,19 +1,25 @@
 import socket
 
-tcp_client_socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+tcp_server_socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-server_ip='192.168.1.9'
-server_sport=9090
+tcp_server_socket.bind(("192.168.1.9",9090)) #绑定本地ip 端口为9090
 
-tcp_client_socket.connect((server_ip,server_sport))
+tcp_server_socket.listen(5)
 
-send_data=input("请输⼊要发送的数据：")
+client_socket= tcp_server_socket.accept()
 
-tcp_client_socket.send(send_data.encode("gbk"))
+print(client_socket)
 
-recvData=tcp_client_socket.recv(1024)
+clientAddr=client_socket[1]
+client_socket=client_socket[0]
 
-print('接收到的数据为:', recvData.decode('gbk'))
+recv_data=client_socket.recv(1024)
+print('接收到的数据为:', recv_data.decode('gbk'))
 
-tcp_client_socket.close()
+client_socket.send("thank you !".encode('gbk'))
+
+client_socket.close()
+
+#客户端发送数据给服务器
+
 
