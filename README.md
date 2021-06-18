@@ -5,7 +5,7 @@
 <body class="stackedit">
   <div class="stackedit__html"><h1><a id="Exhibitionhallrobot_vision_0"></a>Exhibition-hall-robot_vision</h1>
 <p>Pose localization and target detection of indoor interpretation robot</p>
-<p>object detect:<a href="https://www.bilibili.com/video/BV1Z54y1G7eg/">Video link</a><br>
+<p>object detect:<a href="https://www.bilibili.com/video/BV1Z54y1G7eg/">Demo link</a><br>
 aruco _mark predict:<br>
 <img src="https://github.com/hm7455/Exhibition-hall-robot_vision/blob/main/aruco%20_mark/result.jpg" alt="在这里插入图片描述"></p>
 <p>Provide vision module for exhibition hall robot, including:</p>
