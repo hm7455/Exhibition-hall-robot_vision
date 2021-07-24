@@ -64,7 +64,7 @@ data0<span class="token punctuation">[</span><span class="token number">2</span>
 <p>主函数还包括 socket通信模块（其中涉及了与c++通信，是使用struct模块，通过pack将某些特定的结构体类型打包成二进制流的字符串然后再网络传输），显示模块等。使用realsense相机测试我笔记本上生成的aruco_mask效果如下，坐标系统处在marker重心，Z坐标指向mark外部，坐标的颜色为,X:红色，Y：绿色，Z：蓝色。id是在左上角显示。第二张是我手持打印的aruco_mask效果。<br>
 <img src="https://img-blog.csdnimg.cn/20210618101609707.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2htNzQ1NQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><img src="https://img-blog.csdnimg.cn/3e53191269cc4a268d99f3dc7b935b04.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2htNzQ1NQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <h1><a id="TX2_83"></a>二、基于展品的目标检测(在TX2实现)</h1>
-<p>demo：<a href="https://www.bilibili.com/video/BV1z44y1B7RH">Video link</a><br>
+<p>demo：<a href="https://www.bilibili.com/video/BV1Z54y1G7eg/">Video link</a><br>
 由于检测最终要求在Xavier上运行的，之前用在实验室的TX2配置了tensorflow，所以使用是yolov3的tensorflow的复现版本。<br>
 <strong>reference</strong>:<em>https://github.com/YunYang1994/tensorflow-yolov3</em><br>
 使用labelimg 制作数据集，包括训练集，测试集，验证集，可搜索学习怎么使用labelimg制作适用于yolo的数据集。</p>
