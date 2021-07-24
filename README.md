@@ -36,7 +36,7 @@ cmake <span class="token punctuation">..</span>/ -DBUILD_PYTHON_BINDINGS<span cl
 <p>姿态估计的基础是找到现实世界和图像投影之间的对应点。<br>
 使用aruco_mask来实现。 给定一个可以看见ArUco marker的图像，检测程序应当返回检测到的marker的列表。每个检测到的marker包括：<br>
 3.1.图像四个角的位置（按照原始的顺序）2.marker的Id<br>
-aruco_mask可以使用c++代码生成，或者通过https://chev.me/arucogen/ 直接生成。<br>
+aruco_mask可以使用c++代码生成，或者通过https://chev.me/arucogen/直接生成。<br>
 3.2.实现相机的Pose检测，首先需要知道相机的校准参数，即相机内参（mtx）和畸变系数(dist)，事先需要基于标定板做相机的标定，获取相机参数。我是用的相机参数在<em>aruco_mark/detect_aruco_dynamic_realsense_pub.py</em> 里的mtx和dist矩阵，需要利用这两个矩阵参数来实现pose检测。<br>
 3.3 其中使用aruco.detectMarkers()函数可以检测到marker，输入为：灰度图，aruco标定板类型，aruco参数；输出ID和标志板的4个角点坐标。分别是corners，ids, rejectedImgPoints。</p>
 <pre><code class="prism language-python">corners<span class="token punctuation">,</span> ids<span class="token punctuation">,</span> rejectedImgPoints <span class="token operator">=</span> aruco<span class="token punctuation">.</span>detectMarkers<span class="token punctuation">(</span>gray<span class="token punctuation">,</span>aruco_dict<span class="token punctuation">,</span>parameters<span class="token operator">=</span>parameters<span class="token punctuation">)</span>
@@ -64,7 +64,7 @@ data0<span class="token punctuation">[</span><span class="token number">2</span>
 <p>主函数还包括 socket通信模块（其中涉及了与c++通信，是使用struct模块，通过pack将某些特定的结构体类型打包成二进制流的字符串然后再网络传输），显示模块等。使用realsense相机测试我笔记本上生成的aruco_mask效果如下，坐标系统处在marker重心，Z坐标指向mark外部，坐标的颜色为,X:红色，Y：绿色，Z：蓝色。id是在左上角显示。第二张是我手持打印的aruco_mask效果。<br>
 <img src="https://img-blog.csdnimg.cn/20210618101609707.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2htNzQ1NQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><img src="https://img-blog.csdnimg.cn/3e53191269cc4a268d99f3dc7b935b04.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2htNzQ1NQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <h1><a id="TX2_83"></a>二、基于展品的目标检测(在TX2实现)</h1>
-<p>demo：<a href="https://www.bilibili.com/video/BV1Z54y1G7eg/">Video link</a><br>
+<p>demo：<a href="https://www.bilibili.com/video/BV1z44y1B7RH">Video link</a><br>
 由于检测最终要求在Xavier上运行的，之前用在实验室的TX2配置了tensorflow，所以使用是yolov3的tensorflow的复现版本。<br>
 <strong>reference</strong>:<em>https://github.com/YunYang1994/tensorflow-yolov3</em><br>
 使用labelimg 制作数据集，包括训练集，测试集，验证集，可搜索学习怎么使用labelimg制作适用于yolo的数据集。</p>
@@ -121,6 +121,8 @@ data0<span class="token punctuation">[</span><span class="token number">2</span>
             img_ori <span class="token operator">=</span> cv2<span class="token punctuation">.</span>putText<span class="token punctuation">(</span>img_ori<span class="token punctuation">,</span> <span class="token string">'Sucessful!'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">,</span> cv2<span class="token punctuation">.</span>FONT_HERSHEY_COMPLEX<span class="token punctuation">,</span> <span class="token number">1.2</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">255</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span>
         <span class="token keyword">print</span><span class="token punctuation">(</span>position<span class="token punctuation">,</span>classes<span class="token punctuation">)</span>
 </code></pre>
+<h2><a id="_153"></a>后记</h2>
+<p>本篇文章的csdn链接是：<em>https://blog.csdn.net/hm7455/article/details/119063161</em> 欢迎访问~</p>
 </div>
 </body>
 
