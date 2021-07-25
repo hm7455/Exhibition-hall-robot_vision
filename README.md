@@ -87,7 +87,7 @@ data0<span class="token punctuation">[</span><span class="token number">2</span>
 </code></pre>
 <p><img src="https://img-blog.csdnimg.cn/d56a5a1c53644cc0b06f78f64fe767d1.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2htNzQ1NQ==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <h2><a id="_113"></a>视频检测</h2>
-<p>基于test_single_image.py，原作者是对单张图片的检测，我使用opencv的 cv2.VideoCapture读取视频，cv2.VideoCapture不仅可以读取本地视频还可以基于rtsp读取网络摄像头的输入流（功能强大）。<br>
+<p>基于test_single_image.py 修改为目录下的main.py，原作者是对单张图片的检测，我使用opencv的 cv2.VideoCapture读取视频，cv2.VideoCapture不仅可以读取本地视频还可以基于rtsp读取网络摄像头的输入流（功能强大）。<br>
 使用while 循环不断地读取图片帧并输入yolov3网络处理，网络输出的预测图片以视频流的形式显示。</p>
 <h2><a id="_117"></a>计算中心点的偏移距离</h2>
 <p>根据相机偏离重心的距离，输出控制机器人的运动，主要目的是机器人识别出距离中心点最近的展品，并进行后续的操作（靠近，讲解等），把x,y方向的偏移距离显示在视频的左上方。<br>
